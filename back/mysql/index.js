@@ -5,12 +5,11 @@
 var mysql = require('mysql');
 var configMysql = {
     connectionLimit: 10,
-    // host: 'mysql-server',
-    host: '127.0.0.1',
+    host: 'mysql-server',
     port: 3306,
-    user: 'pablo',
-    password: 'p4bl0',
-    database: 'dam'
+    user: 'root',
+    password: 'userpass',
+    database: 'DAM'
 }
 var pool = mysql.createPool(configMysql);
 pool.getConnection((err, connection) => {
