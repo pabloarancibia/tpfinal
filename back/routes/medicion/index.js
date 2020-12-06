@@ -25,7 +25,7 @@ routerMedicion.post('/agregar', function (req, res) {
 });
 
 routerMedicion.get('/:idDispositivo/todas', function (req, res) {
-    pool.query('Select * from mediciones where dispositivoId=? order by fecha desc', [req.params.idDispositivo], function (err, result, fields) {
+    pool.query('Select * from Mediciones where dispositivoId=? order by fecha desc', [req.params.idDispositivo], function (err, result, fields) {
         if (err) {
             res.send(err).status(400);
             return;
