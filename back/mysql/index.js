@@ -7,7 +7,7 @@ var configMysql = {
     connectionLimit: 10,
     // host: 'mysql-server',
     host: '127.0.0.1',
-    port: 3306,
+    port: 3307,
     user: 'root',
     // user: 'pablo',
     password: 'userpass',

@@ -16,11 +16,13 @@ services:
 
     mysql-server:
         image:                      mysql:5.7
-        command: --default-authentication-plugin=mysql_native_password
+        
         hostname:                   mysql-server
         container_name:             mysql-server
         environment:
             MYSQL_ROOT_PASSWORD:    userpass
+        ports:
+            -                       "3307:3306"
         volumes:
             -                       ./db/dumps:/docker-entrypoint-initdb.d
             -                       ./db/data:/var/lib/mysql
@@ -33,7 +35,7 @@ services:
         container_name:             mysql-admin
         environment: 
             PMA_HOST:               mysql-server
-            PMA_PORT:               3306
+            PMA_PORT:               3307
             MYSQL_ROOT_PASSWORD:    userpass
         networks:
             -                       dam-ceiot-network
