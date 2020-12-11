@@ -2,6 +2,7 @@
 
 Proyecto para el trabajo final de la materia Desarrollo de Aplicaciones Multiplataforma de la Especialización en IOT de la Universidad de Buenos Aires.
 
+Tema: Sistema de Riego Automatizado.
 Consiste en una aplicación para el monitoreo de variables de sensores simuladas.
 
 
@@ -47,15 +48,15 @@ Ingresa en tu navegador a http://localhost:8100/
 
 ## Wiki 📖
 
-## Dispositivos
-En la pantalla principal podrás ver los dispositivos.
+## Sensores
+En la pantalla principal podrás ver los sensores.
 En cada dispositivo tendrás información sobre su Nombre, Descripcion y Ubicación.
 
 ![dispositivos](https://github.com/pabloarancibia/tpfinal/blob/main/img/dispositivos.PNG?raw=true)
 
 
 ## Detalle de Dispositivo
-Al hacer click sobre uno de los sensores te mostrará la pantalla de "Detalle del Dispositivo" donde se puede observar la última medición obtebida. 
+Al hacer click sobre uno de los sensores te mostrará la pantalla de "Detalle del Dispositivo" donde se puede observar la última medición obtebida y 3 botones para navegar en la app. 
 
 ![detalle](https://github.com/pabloarancibia/tpfinal/blob/main/img/detalle.PNG?raw=true)
 
