@@ -53,18 +53,29 @@ En cada dispositivo tendrás información sobre su Nombre, Descripcion y Ubicaci
 
 ![dispositivos](https://github.com/pabloarancibia/tpfinal/blob/main/img/dispositivos.PNG?raw=true)
 
+
+## Detalle de Dispositivo
 Al hacer click sobre uno de los sensores te mostrará la pantalla de "Detalle del Dispositivo" donde se puede observar la última medición obtebida. 
+
+![detalle](https://github.com/pabloarancibia/tpfinal/blob/main/img/detalle.PNG?raw=true)
 
 ## Abrir/Cerrar Electroválvula.
 Al hacer clic en "Abrir electroválvula" se simula una apertura de la valvula de riego y se cambia el estado del botón para que puedas cerrar la válvula.
+
+![cerrar](https://github.com/pabloarancibia/tpfinal/blob/main/img/cerrar.PNG?raw=true)
+
 Una vez cerrada la valvula se realizará una nueva medición para ver los valores actuales y se reflejarán en el gráfico.
 
 ## Ver todas las Mediciones
 Al hacer click en "Ver todas las mediciones" accederemos al listado correspondiente donde visualizamos cada fecha y medición realizada.
 
+![mediciones](https://github.com/pabloarancibia/tpfinal/blob/main/img/mediciones.PNG?raw=true)
+
 ## Ver Log de Riegos
 
 Al hacer clic en "Log de riegos" veremos la cantidad de aperturas y cierres de válvula que se realizó.
+
+![riegos](https://github.com/pabloarancibia/tpfinal/blob/main/img/riegos.PNG?raw=true)
 
 ## Construido con 🛠️
 
