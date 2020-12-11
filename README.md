@@ -38,7 +38,7 @@ node index.js
 
 en /tpfinal/front ejecutar:
 ```
-Ionic serve
+ionic serve
 ```
 
 
@@ -47,8 +47,11 @@ Ingresa en tu navegador a http://localhost:8100/
 
 ## Wiki 📖
 
+## Dispositivos
 En la pantalla principal podrás ver los dispositivos.
 En cada dispositivo tendrás información sobre su Nombre, Descripcion y Ubicación.
+
+![dispositivos](./img/dispositivos.png/)
 
 Al hacer click sobre uno de los sensores te mostrará la pantalla de "Detalle del Dispositivo" donde se puede observar la última medición obtebida. 
 
