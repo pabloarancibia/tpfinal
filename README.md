@@ -51,7 +51,7 @@ Ingresa en tu navegador a http://localhost:8100/
 En la pantalla principal podrás ver los dispositivos.
 En cada dispositivo tendrás información sobre su Nombre, Descripcion y Ubicación.
 
-![dispositivos](./img/dispositivos.png/)
+![dispositivos](https://github.com/pabloarancibia/tpfinal/img/dispositivos.PNG?raw=true "Dispositivos")
 
 Al hacer click sobre uno de los sensores te mostrará la pantalla de "Detalle del Dispositivo" donde se puede observar la última medición obtebida. 
 
