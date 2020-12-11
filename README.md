@@ -24,7 +24,11 @@ Consiste en una aplicación para el monitoreo de variables de sensores simuladas
 
 Clonar desde: 
 
-[Repositorio] (https://github.com/pabloarancibia/tpfinal)
+[Backend] (https://github.com/pabloarancibia/tpfinal)
+
+Dentro de la carpeta tpfinal Clonar:
+
+[Frontend] (https://github.com/pabloarancibia/tpfinal-front front)
 
 
 En la terminal, dentro de /tpfinal ejecutar:
